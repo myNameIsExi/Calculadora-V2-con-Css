@@ -14,9 +14,9 @@ function calculateResult() {
     try {
         const result = eval(displayValue);
         document.getElementById('display').value = result;
-        displayValue = ''; // Reset displayValue after calculation
+        displayValue = ''; 
     } catch (error) {
         document.getElementById('display').value = 'Error';
-        displayValue = ''; // Reset displayValue on error
+        displayValue = ''; 
     }
 }
